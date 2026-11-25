@@ -21,7 +21,7 @@ Everything is static HTML and CSS; there is no build step.
 
 Things still to fill in, all in `index.html`:
 
-- **Paper, Code and Poster buttons.** They sit in a commented-out block inside the header (`<nav class="publication-links">`). Uncomment each one and replace its link when it is public.
+- **Paper and Poster buttons.** They sit in commented-out blocks inside the header (`<nav class="publication-links">`), on either side of the Code button. Uncomment each one and replace its link when it is public.
 - **Author homepages.** Wrap a name in a link, as described in the comment above the author list.
 - **BibTeX.** Check the entry against the final proceedings details.
 - **`citation_pdf_url`.** Add it in the `<head>` once the PDF is public, so Google Scholar can index it.

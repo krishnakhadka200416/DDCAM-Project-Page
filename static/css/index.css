@@ -847,6 +847,15 @@ pre code {
   }
 }
 
+/* phones: wrap the header buttons in even pairs instead of leaving one stranded */
+@media screen and (max-width: 480px) {
+  .publication-links {
+    max-width: 17rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
